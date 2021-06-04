@@ -1,0 +1,32 @@
+<mjml>
+  <mj-head>
+    <mj-title>Set the title, usually for accessibility tools</mj-title>
+    <mj-preview>Set inbox preview text here, otherwise it might be something nonsensical</mj-preview>
+    <mj-attributes>
+      <mj-all font-family="Helvetica, Arial, sans-serif"></mj-all>
+      <mj-text font-weight="400" font-size="16px" color="#4A4A4A" line-height="24px" />
+      <mj-section padding="0px"></mj-section>
+    </mj-attributes>
+  </mj-head>
+  <mj-body>
+    <mj-section>
+      <mj-column>
+        <mj-image src="cid:{{logo}}" alt="JustJensen Logo" align="center" width="50px"></mj-image>
+        <mj-text font-size="24px" align="left" font-weight="800" line-height="24px">ALERT: Bikes are Wonderful Too</mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section>
+      <mj-column width="100%" background-color="#f3f3f3" border-radius="4px" padding-top="15px" padding-bottom="15px">
+        <mj-text>Hello {{first_name}},</mj-text>
+        <mj-text>It turns out biking can help fill in the distances that are too short for the train and too long for walking.*</mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section>
+      <mj-column>
+        <mj-text>*And you can stop for groceries too!</mj-text>
+        <mj-divider border-width="1px" border-color="#E0E0E0" padding-bottom=0 padding-top=0></mj-divider>
+        <mj-text font-size="14px" padding-top=0><a href="https://justjensen.co" style="color:#6f4a8e">justjensen.co</a></mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>
